@@ -22,4 +22,4 @@ npm run lint
 
 ### Home Page final look:
 
-[HomePageLook] (https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/LayoutHomePage.png)
+![HomePageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/LayoutHomePage.png)
