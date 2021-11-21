@@ -20,6 +20,11 @@ npm run build
 npm run lint
 ```
 
+### To run the project
+```
+npm run serve
+```
+
 ### Home Page final look:
 
 ![HomePageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/LayoutHomePage.png)
