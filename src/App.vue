@@ -1,32 +1,41 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <my-system-bar></my-system-bar>
+    <my-app-bar></my-app-bar>
+    <v-main>
+      <div class="sidebar">
+        <side-bar></side-bar>
+        <router-view/>
+      </div>
+    </v-main>
+    <my-footer></my-footer>
+    <my-bottom-navigation></my-bottom-navigation>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import MyAppBar from './components/MyAppBar.vue';
+import MyBottomNavigation from './components/MyBottomNavigation.vue';
+import MyFooter from './components/MyFooter.vue';
+import MySystemBar from './components/MySystemBar.vue';
+import SideBar from './components/SideBar.vue';
 
-#nav {
-  padding: 30px;
-}
+export default {
+  components: { MySystemBar, MyAppBar, SideBar, MyFooter, MyBottomNavigation },
+  name: 'App',
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  data: () => ({
+    //
+  }),
+};
+</script>
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style scoped>
+  .sidebar{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    background-color: rgb(41, 41, 41);
+  }
 </style>
