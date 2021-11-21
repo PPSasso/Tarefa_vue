@@ -22,4 +22,4 @@ npm run lint
 
 ### Home Page final look:
 
-[Home Page img] (./src/assets/LayoutHomePage.png)
+./src/assets/LayoutHomePage.png
