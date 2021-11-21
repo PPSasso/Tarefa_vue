@@ -13,7 +13,5 @@
 </script>
 
 <style scoped>
-  .mainDiv{
-    background-color: rgb(190, 190, 190); 
-  }
+  
 </style>
