@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### To run the project
+```
+npm run serve
+```
+
+### Home Page final look:
+
+![HomePageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/LayoutHomePage.png)
