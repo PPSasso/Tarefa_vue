@@ -2,7 +2,7 @@
   <div class="mainDiv">
     <v-row >
       <v-col v-for="item in moviesList" :key="item.name" dark class="list">
-        <my-card :movie="item"></my-card>
+        <my-card v-if="item.genre == 'Action'" :movie="item"></my-card>
       </v-col>
     </v-row>
    
@@ -21,7 +21,7 @@ import MyCard from '../components/MyCard.vue'
     },  
     
     components: { MyCard },
-      name: 'Home',
+      name: 'Action',
     };
 </script>
 
@@ -33,7 +33,6 @@ import MyCard from '../components/MyCard.vue'
   }
 
   .list{
-    margin: 0 10px;
     margin-bottom: 700px;
 
     background-color: rgb(41, 41, 41);

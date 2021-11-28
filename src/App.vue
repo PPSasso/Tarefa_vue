@@ -34,7 +34,6 @@ export default {
   .sidebar{
     height: 100%;
     display: flex;
-    justify-content: flex-start;
 
     background-color: rgb(41, 41, 41);
   }

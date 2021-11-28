@@ -7,16 +7,24 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Um nome de página criativo</v-toolbar-title>
+      <v-toolbar-title>Film list</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
+      <v-btn icon href="/">
+        <v-icon>mdi-home</v-icon>
       </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
+      <v-btn icon href="/action">
+        <v-icon>mdi-car-traction-control</v-icon>
+      </v-btn>
+      <v-btn icon href="/kids">
+        <v-icon>mdi-balloon</v-icon>
+      </v-btn>
+      <v-btn icon href="/comedy">
+        <v-icon>mdi-emoticon-excited-outline</v-icon>
+      </v-btn>
+      <v-btn icon href="/horror">
+        <v-icon>mdi-knife</v-icon>
       </v-btn>
 
       <v-menu
