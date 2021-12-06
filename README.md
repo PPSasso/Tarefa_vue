@@ -56,3 +56,7 @@ npm run serve
 ### Kids Movies Page:
 
 ![KidsPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/kidsFinal.png)
+
+### Comedy Movies Page:
+
+![ComedyPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/comedyFinal.png)
