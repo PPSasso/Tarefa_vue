@@ -7,7 +7,7 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Film list</v-toolbar-title>
+      <v-toolbar-title>{{title}}</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -59,6 +59,12 @@
 
 export default {
     name:"MyAppBar",
+
+    data(){
+      return{
+        title: this.$store.getters.bigTitle
+      }
+    }
 
 
 }

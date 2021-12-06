@@ -1,7 +1,12 @@
 <template>
   <div class="mainDiv">
     <v-row >
-      <v-col v-for="item in moviesList" :key="item.name" dark class="list">
+      <v-col 
+        v-for="(item,i) in movies" 
+        :key=i 
+        dark 
+        class="list"
+      >
         <my-card :movie="item"></my-card>
       </v-col>
     </v-row>
@@ -14,15 +19,20 @@ import MyCard from '../components/MyCard.vue'
 
 
   export default {
-    data(){
-      return{
-        moviesList: this.$store.state
+
+    computed:{
+      movies(){
+        return this.$store.state.movies
       }
-    },  
+    },
     
     components: { MyCard },
-      name: 'Home',
-    };
+
+    async created(){
+      this.$store.dispatch("fetchMovies")
+
+    }
+  }
 </script>
 
 <style scoped>

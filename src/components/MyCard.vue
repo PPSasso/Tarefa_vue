@@ -8,12 +8,13 @@
   >
     
     <v-img
-      width="100%"
       max-height="320"
-      :src="require(`@/assets/${movie.imgRef}`)"
+      :src="`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${movie.backdrop_path}`"
     ></v-img>
 
-    <v-card-title>{{movie.name}}</v-card-title>
+    
+    
+    <v-card-title>{{movie.title}}</v-card-title>
 
     <v-card-text>
       <v-row
@@ -35,10 +36,9 @@
       </v-row>
 
       <div class="my-4 text-subtitle-1">
-        {{movie.genre}}
       </div>
 
-      <div>{{movie.description}}</div>
+      <div>{{movie.overview}}</div>
     </v-card-text>
 
     <v-divider class="mx-4"></v-divider>

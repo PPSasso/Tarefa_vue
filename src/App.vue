@@ -5,7 +5,9 @@
     <v-main>
       <div class="sidebar">
         <side-bar></side-bar>
-        <router-view/>
+        <div class="rv">
+          <router-view/>
+        </div>
       </div>
     </v-main>
     <my-footer></my-footer>
@@ -36,5 +38,9 @@ export default {
     display: flex;
 
     background-color: rgb(41, 41, 41);
+  }
+
+  .rv{
+    width: 90%;
   }
 </style>
