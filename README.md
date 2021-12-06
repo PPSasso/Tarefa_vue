@@ -37,8 +37,22 @@ npm run serve
 
 ### Action Movies Page:
 
-![HomePageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/actionResult.png)
+![ActionPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/actionResult.png)
 
 ### Kids Movies Page:
 
-![HomePageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/kidsResult.png)
+![KidsPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/kidsResult.png)
+
+# AF3
+
+### Home Page:
+
+![HomePageLook3](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/homeFinal.png)
+
+### Action Movies Page:
+
+![ActionPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/actionFinal.png)
+
+### Kids Movies Page:
+
+![KidsPageLook](https://github.com/PPSasso/Tarefa_vue/blob/master/src/assets/kidsFinal.png)
